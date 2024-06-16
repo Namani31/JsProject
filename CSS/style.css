@@ -37,9 +37,9 @@ button {
     font-size: 1.5rem;
 }
 
-.game {
+/* .game {
     display:none
-}
+} */
 
 .choice {
     margin: 0 10px;
@@ -51,6 +51,6 @@ button {
     margin: 20px 0;
 }
 
-#restart-game {
+/* #restart-game {
     display: none;
-}
+} */
