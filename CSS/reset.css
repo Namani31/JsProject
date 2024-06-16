@@ -3,6 +3,18 @@ body {
     font-family: "Jua", sans-serif;
 }
 
+#container {
+    text-align: center;
+    background-color: #fdf0d5;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    color: #003049;
+}
+
+/* 게임시작, 가위, 바위, 보, 재시작 */
 button {
     margin: 0;
     padding: 0.2rem 0.2rem;
@@ -16,10 +28,11 @@ button {
     font-size: 1rem;
     text-align: center;
     text-decoration: none;
-    border-color: #D3D3D3;
+    border-color: #669bbc;
     border-radius: 4px;
 }
 
+/* 나, 컴퓨터 선택, 결과 */
 .result {
     font-size: 1.5rem;
 }
