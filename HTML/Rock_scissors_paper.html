@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jua&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <title>가위, 바위, 보</title>
@@ -34,7 +34,11 @@
             <button id="restart-game">재시작</butto>
         </div>
     </div>
-    <script src="game-logic"></script>
+    <!-- 스크립트 코드는 대부분 </body> 태그 앞에 위치한다.
+        장점은 JS 파일을 다운로드 하기 전, HTML 코드를 모두 파싱(구문 분석)하기 때문에
+        사용자가 화면의 내용을 빨리 볼 수 있다는 장점이 있다.-->
+    <script src="game-logic.js"></script>
+    <script src="game-result.js"></script>
 </body>
 
 </html>

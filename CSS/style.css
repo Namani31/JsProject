@@ -36,3 +36,21 @@ button {
 .result {
     font-size: 1.5rem;
 }
+
+.game {
+    display:none
+}
+
+.choice {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.result {
+    margin: 20px 0;
+}
+
+#restart-game {
+    display: none;
+}
