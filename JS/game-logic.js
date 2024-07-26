@@ -29,7 +29,6 @@ document.addEventListener('DOMContentLoaded', () => {
         choice.addEventListener('click', function() {
             userChoice = this.getAttribute('data-choice');
             computerChoice = getComputerChoice();
-            // 
             displayChoices(userChoice, computerChoice);
             determineWinner(userChoice, computerChoice);
         });

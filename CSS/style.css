@@ -8,6 +8,21 @@ body {
     background-color: #fdf0d5;
     padding: 20px;
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* 화면 최대 높이, vh: viewport height, 
+    현재 실행중인 스크린 크기에 맞춰 상대적 크기를 반환 */
+    
+}
+
+#start-game {
+    margin-top: 2%;
+}
+
+.game-screen {
+   display: none;
 }
 
 h1 {
