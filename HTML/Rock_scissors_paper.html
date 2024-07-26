@@ -1,3 +1,5 @@
+// Rock_scissors_paper.html
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,18 +26,17 @@
             <button type="button" id="start-game">게임 시작</button>
             <div class="game-screen">
                 <div class="choices">
-                    <button id="choice" data-choice="scissors">가위</button>
-                    <button id="choice" data-choice="rock">바위</button>
-                    <button id="choice" data-choice="paper">보</button>
+                    <button data-choice="scissors"><img src="../CSS/scissors.png">가위</button>
+                    <button data-choice="rock"><img src="../CSS/rock.png">바위</button>
+                    <button data-choice="paper"><img src="../CSS/paper.png">보</button>
                 </div>
                 <div class="result">
                     <p id="user-choice">나: </p>
                     <p id="computer-choice">컴퓨터 선택: </p>
                     <p id="game-result">결과: </p>
                 </div>
-                <button id="restart-game">재시작</butto>
+                <button id="restart-game">재시작</button>
             </div>
-
         </div>
     </div>
     <script src="game-logic.js"></script>
